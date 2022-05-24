@@ -19,7 +19,7 @@ class BelajarAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: DefaultTabController(
-        length: 4,
+        length: 2,
         child: NestedScrollView(
           headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
             return <Widget>[
@@ -35,7 +35,7 @@ class BelajarAppBar extends StatelessWidget {
                         fontSize: 20.0,
                       )),
                   background: Image(
-                    image: ('https://i.ytimg.com/vi/HhjHYkPQ8F0/maxresdefault.jpg'),
+                    image: NetworkImage('https://cdn.pixabay.com/photo/2020/10/04/18/13/mountains-5627143_1280.jpg'),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -49,8 +49,6 @@ class BelajarAppBar extends StatelessWidget {
                       unselectedLabelColor: Colors.grey,
                       tabs: [
                         new Tab(icon: new Icon(Icons.audiotrack), text: "Songs"),
-                        new Tab(icon: new Icon(Icons.collections), text: "Gallery"),
-                        new Tab(icon: new Icon(Icons.collections), text: "Playlist"),
                         new Tab(icon: new Icon(Icons.collections), text: "Gallery"),
                       ],
                     ),

@@ -63,7 +63,25 @@ class BelajarAppBar extends StatelessWidget {
           ),
         ),
       ),
-      bottomNavigationBar: new Material(),
+      bottomNavigationBar: new Material(
+        color: Colors.grey,
+        child: SliverPadding(
+          padding: new EdgeInsets.all(10.0),
+          sliver: new SliverList(
+            delegate: new SliverChildListDelegate([
+              TabBar(
+                labelColor: Colors.black87,
+                unselectedLabelColor: Colors.grey,
+                tabs: [
+                  new Tab(icon: new Icon(Icons.audiotrack), text: "Songs"),
+                  new Tab(icon: new Icon(Icons.collections), text: "Gallery"),
+                  new Tab(icon: new Icon(Icons.headset), text: "Headset"),
+                ],
+              ),
+            ]),
+          ),
+        ),
+      ),
     );
   }
 }

@@ -35,7 +35,7 @@ class BelajarAppBar extends StatelessWidget {
                         fontSize: 20.0,
                       )),
                   background: Image(
-                    image: NetworkImage('https://cdn.pixabay.com/photo/2020/10/04/18/13/mountains-5627143_1280.jpg'),
+                    image: NetworkImage('https://i.ytimg.com/vi/HhjHYkPQ8F0/maxresdefault.jpg'),
                     fit: BoxFit.cover,
                   ),
                 ),

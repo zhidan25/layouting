@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '.gallery.dart' as Gallery;
-
 void main() {
   runApp(MyApp());
 }
@@ -65,6 +63,7 @@ class BelajarAppBar extends StatelessWidget {
           ),
         ),
       ),
+      bottomNavigationBar: new Material(),
     );
   }
 }

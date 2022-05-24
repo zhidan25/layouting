@@ -10,9 +10,9 @@ class HalamanSatu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue,
+      backgroundColor: Colors.blue[50],
       appBar: new AppBar(
-        backgroundColor: Colors.red[900],
+        backgroundColor: Colors.blue[900],
         leading: new Icon(Icons.home),
         title: new Center(
           child: new Text("zhidanost"),

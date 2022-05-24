@@ -35,7 +35,7 @@ class BelajarAppBar extends StatelessWidget {
                         fontSize: 20.0,
                       )),
                   background: Image(
-                    image: AssetImage('https://i.ytimg.com/vi/HhjHYkPQ8F0/maxresdefault.jpg'),
+                    image: ('https://i.ytimg.com/vi/HhjHYkPQ8F0/maxresdefault.jpg'),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -49,6 +49,8 @@ class BelajarAppBar extends StatelessWidget {
                       unselectedLabelColor: Colors.grey,
                       tabs: [
                         new Tab(icon: new Icon(Icons.audiotrack), text: "Songs"),
+                        new Tab(icon: new Icon(Icons.collections), text: "Gallery"),
+                        new Tab(icon: new Icon(Icons.collections), text: "Playlist"),
                         new Tab(icon: new Icon(Icons.collections), text: "Gallery"),
                       ],
                     ),

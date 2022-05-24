@@ -15,7 +15,7 @@ class HalamanSatu extends StatelessWidget {
         backgroundColor: Colors.blue[900],
         leading: new Icon(Icons.home),
         title: new Center(
-          child: new Text("zhidanost"),
+          child: new Text("Zhidan Ost"),
         ),
         actions: <Widget>[
           new Icon(Icons.search)

@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -82,5 +84,20 @@ class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
 
   bool shouldRebuild(_SliverAppBarDelegate oldDelegate) {
     return false;
+  }
+}
+
+class HalamanSatu extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return new Scaffold(
+        body: new Container(
+            // id=kotak
+            color: Colors.grey,
+            width: 200.0,
+            height: 100.0,
+            child: new Center(
+              child: new Text("ahajakakakl", style: new TextStyle(color: Colors.black)),
+            )));
   }
 }

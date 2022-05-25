@@ -24,7 +24,7 @@ class BelajarAppBar extends StatelessWidget {
           headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
             return <Widget>[
               SliverAppBar(
-                expandedHeight: 200.0,
+                expandedHeight: 400.0,
                 floating: false,
                 pinned: true,
                 flexibleSpace: FlexibleSpaceBar(

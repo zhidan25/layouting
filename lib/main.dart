@@ -29,7 +29,7 @@ class BelajarAppBar extends StatelessWidget {
                 pinned: true,
                 flexibleSpace: FlexibleSpaceBar(
                   centerTitle: true,
-                  title: Text("Belajar SliverAppBar",
+                  title: Text("",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 20.0,

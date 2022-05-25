@@ -11,11 +11,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Toko Online',
+      title: 'Online Shop',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Toko Online'),
+      home: MyHomePage(title: 'Online Shop'),
     );
   }
 }
